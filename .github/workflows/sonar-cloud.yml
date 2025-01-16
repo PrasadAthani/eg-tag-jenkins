@@ -1,5 +1,5 @@
 name: Deploy to DEV sonar
-on: 
+on:  
   push: 
     branches:
       - release-2.0.0
