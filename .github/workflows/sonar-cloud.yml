@@ -1,7 +1,8 @@
-name: "sonar_cloud_scan_github_actions"
-on:
-  workflow_dispatch:
-
+name: Deploy to DEV sonar
+on: 
+  push: 
+    branches:
+      - release-2.0.0
 jobs:
   DemoSonarCloudSCan:
     runs-on: ubuntu-latest
